@@ -1,14 +1,6 @@
 ############################################################
-# CIS 521: Sudoku Homework 
-############################################################
-
-student_name = "Steven Fandozzi"
-
-############################################################
 # Imports
 ############################################################
-
-# Include your imports here, if any are used.
 
 import random
 import time
@@ -16,7 +8,7 @@ import os
 import copy
 
 ############################################################
-# Section 1: Sudoku Solver
+//Sudoku Solver
 ############################################################
 
 def sudoku_cells():
@@ -202,20 +194,3 @@ class Sudoku(object):
             if len(self.board[cell]) == 0:
                 return False
         return True
-############################################################
-# Section 2: Feedback
-############################################################
-
-# Just an approximation is fine.
-feedback_question_1 = 12
-
-feedback_question_2 = """
-The only challenging part I felt came in designing a heurisitc function 
-that was both maximumly informative and efficient.
-"""
-
-feedback_question_3 = """
-My favorite part of the assignment was seeing how our techinques failed against
-certain problem difficulties as well as thinking through the steps require to
-solve the more challenging problems.
-"""
