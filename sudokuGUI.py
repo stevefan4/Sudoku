@@ -1,4 +1,3 @@
-### Author: Yue Yang ###
 import argparse
 import copy
 import numpy as np
